@@ -11,7 +11,7 @@
     <metadata key="jiraWorkflow_IssueTypeId" value="10007"/>
     <metadata key="jiraWorkflow_UserUrl" value="https://mbtdemo.atlassian.net/browse/MBT-1"/>
     <metadata key="jiraWorkflow_WorkflowVersion" value="5"/>
-    <metadata key="jiraWorkflow_Status" value="UP_TO_DATE"/>
+    <metadata key="jiraWorkflow_Status" value="MODIFIED"/>
     <flowElements xsi:type="yest:StartPoint" id="blVsZQl9Oa4kNQL6mTkmHa6qUovztAw1" name="" outgoings="Qq4uC65ECTo9IEXCVgxnOQXMH2JkzXt8"/>
     <flowElements xsi:type="yest:CallActivity" id="FjIcL7inE7uqdccFzvNGvkNOX2rpAPhj" name="Produkt auswählen" incomings="Qq4uC65ECTo9IEXCVgxnOQXMH2JkzXt8" outgoings="3wbtpEndf3d18bz9ODOriE07bPT0avVk" subWorkflow="0VrESOAMHEARtu6FLGA0F2dJuS40gekW"/>
     <flowElements xsi:type="yest:SequenceFlow" id="Qq4uC65ECTo9IEXCVgxnOQXMH2JkzXt8" name="" target="FjIcL7inE7uqdccFzvNGvkNOX2rpAPhj" source="blVsZQl9Oa4kNQL6mTkmHa6qUovztAw1"/>
@@ -146,6 +146,21 @@
         <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.0/@diagram/@colors.8" lineWidth="4" transparency="0.0" width="31" height="31" x="401" y="634" style="//@testElements.0/@diagram/@styles.3"/>
         <link businessObjects="1WWU26jhrGP9zymXgmp8o6aWrBWknKWf"/>
         <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@testElements.0/@diagram/@connections.4"/>
+      </children>
+      <children xsi:type="yest:TextAnnotationShape" visible="true" active="true" extras="//@testElements.0/@diagram/@children.6/@children.1/@graphicsAlgorithm" text="//@testElements.0/@diagram/@children.6/@children.0/@graphicsAlgorithm" id="EnMn9bxKOOYHxTnfMBUfUNyw5HG13U8M">
+        <graphicsAlgorithm xsi:type="al:Rectangle" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="1" lineVisible="true" transparency="0.0" width="101" height="51" x="654" y="296" style="//@testElements.0/@diagram/@styles.2"/>
+        <anchors xsi:type="pi:ChopboxAnchor"/>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:MultiText" foreground="//@testElements.0/@diagram/@colors.6" lineWidth="1" filled="false" transparency="0.0" width="89" height="43" x="6" y="4" font="//@testElements.0/@diagram/@fonts.0" verticalAlignment="ALIGNMENT_TOP" value="Kuckuck!"/>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.7" lineWidth="2" filled="true" lineVisible="true" transparency="0.0">
+            <points x="25"/>
+            <points/>
+            <points y="51"/>
+            <points x="25" y="51"/>
+          </graphicsAlgorithm>
+        </children>
       </children>
       <styles id="shape-bg-green-id">
         <renderingStyle>
@@ -404,17 +419,29 @@
     <metadata key="jiraWorkflow_Fields" value="{}"/>
     <metadata key="jiraWorkflow_Key" value="MBT-5"/>
     <metadata key="jiraWorkflow_UserUrl" value="https://mbtdemo.atlassian.net/browse/MBT-5"/>
-    <metadata key="jiraWorkflow_WorkflowVersion" value="1"/>
-    <metadata key="jiraWorkflow_WorkflowContent" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;mxGraphModel arrows=&quot;1&quot;&#xA;              connect=&quot;0&quot;&#xA;              fold=&quot;1&quot;&#xA;              grid=&quot;0&quot;&#xA;              gridSize=&quot;10&quot;&#xA;              guides=&quot;1&quot;&#xA;              page=&quot;0&quot;&#xA;              pageScale=&quot;1&quot;&#xA;              tooltips=&quot;1&quot;&#xA;              yestId=&quot;0VrESOAMHEARtu6FLGA0F2dJuS40gekW&quot;>&#xA;   &lt;root>&#xA;      &lt;mxCell id=&quot;0&quot;/>&#xA;      &lt;mxCell id=&quot;1&quot; parent=&quot;0&quot;/>&#xA;      &lt;mxCell id=&quot;2&quot;&#xA;              parent=&quot;1&quot;&#xA;              style=&quot;shape=startPoint;strokeWidth=2;perimeter=ellipsePerimeter;overflow=visible;gradientColor=white;gradientDirection=south;strokeColor=#A4C1A2;fillColor=#bcddba&quot;&#xA;              value=&quot;&quot;&#xA;              vertex=&quot;1&quot;>&#xA;         &lt;Object as=&quot;bo&quot;&#xA;                 kind=&quot;start&quot;&#xA;                 label=&quot;3&quot;&#xA;                 name=&quot;&quot;&#xA;                 yestId=&quot;95j87z3a3eczhBMHHya1t0VxWo0yqql9&quot;/>&#xA;         &lt;mxGeometry as=&quot;geometry&quot; height=&quot;31&quot; width=&quot;31&quot; x=&quot;150&quot; y=&quot;100&quot;/>&#xA;      &lt;/mxCell>&#xA;      &lt;mxCell id=&quot;3&quot;&#xA;              parent=&quot;1&quot;&#xA;              style=&quot;shape=nameLabel;deletable=0;strokeColor=none;fillColor=none;strokeWidth=0;overflow=visible;rounded=0;autosize=1;spacing=4;align=left&quot;&#xA;              value=&quot;&quot;&#xA;              vertex=&quot;1&quot;&#xA;              visible=&quot;0&quot;>&#xA;         &lt;Object as=&quot;bo&quot; labelled=&quot;2&quot;/>&#xA;         &lt;mxGeometry as=&quot;geometry&quot; height=&quot;20&quot; width=&quot;50&quot; x=&quot;100&quot; y=&quot;100&quot;/>&#xA;      &lt;/mxCell>&#xA;      &lt;mxCell id=&quot;4&quot;&#xA;              parent=&quot;1&quot;&#xA;              style=&quot;shape=task;strokeWidth=2;overflow=hidden;gradientColor=white;gradientDirection=south;strokeColor=#AEC6CF;fillColor=#c8e3ee&quot;&#xA;              value=&quot;Task&quot;&#xA;              vertex=&quot;1&quot;>&#xA;         &lt;Object as=&quot;bo&quot;&#xA;                 kind=&quot;task&quot;&#xA;                 name=&quot;Task&quot;&#xA;                 yestId=&quot;cjB7SsCuXHbGNxYy8TcLriYsf0ms17T1&quot;/>&#xA;         &lt;mxGeometry as=&quot;geometry&quot; height=&quot;51&quot; width=&quot;101&quot; x=&quot;115&quot; y=&quot;175&quot;/>&#xA;      &lt;/mxCell>&#xA;      &lt;mxCell id=&quot;5&quot;&#xA;              parent=&quot;1&quot;&#xA;              style=&quot;shape=endPoint;strokeWidth=4;perimeter=ellipsePerimeter;overflow=visible;gradientDirection=south;strokeColor=#EF7E8A;fillColor=#ff909e&quot;&#xA;              value=&quot;&quot;&#xA;              vertex=&quot;1&quot;>&#xA;         &lt;Object as=&quot;bo&quot;&#xA;                 kind=&quot;end&quot;&#xA;                 label=&quot;6&quot;&#xA;                 name=&quot;&quot;&#xA;                 yestId=&quot;ypVqNqrM7FhqTZUTuCAjJZhMSxOIwsny&quot;/>&#xA;         &lt;mxGeometry as=&quot;geometry&quot; height=&quot;31&quot; width=&quot;31&quot; x=&quot;150&quot; y=&quot;262&quot;/>&#xA;      &lt;/mxCell>&#xA;      &lt;mxCell id=&quot;6&quot;&#xA;              parent=&quot;1&quot;&#xA;              style=&quot;shape=nameLabel;deletable=0;strokeColor=none;fillColor=none;strokeWidth=0;overflow=visible;rounded=0;autosize=1;spacing=4;align=left&quot;&#xA;              value=&quot;&quot;&#xA;              vertex=&quot;1&quot;&#xA;              visible=&quot;0&quot;>&#xA;         &lt;Object as=&quot;bo&quot; labelled=&quot;5&quot;/>&#xA;         &lt;mxGeometry as=&quot;geometry&quot; height=&quot;20&quot; width=&quot;50&quot; x=&quot;191&quot; y=&quot;272&quot;/>&#xA;      &lt;/mxCell>&#xA;      &lt;mxCell edge=&quot;1&quot;&#xA;              id=&quot;7&quot;&#xA;              parent=&quot;1&quot;&#xA;              source=&quot;2&quot;&#xA;              style=&quot;edgeStyle=none;jumpStyle=arc;jumpSize=10;strokeColor=#333333&quot;&#xA;              target=&quot;4&quot;&#xA;              value=&quot;&quot;>&#xA;         &lt;Object as=&quot;bo&quot; name=&quot;&quot; yestId=&quot;A9sPq5OMzaFysoqeAQPFRss2yJmNMJBQ&quot;/>&#xA;         &lt;mxGeometry as=&quot;geometry&quot; relative=&quot;1&quot;/>&#xA;      &lt;/mxCell>&#xA;      &lt;mxCell edge=&quot;1&quot;&#xA;              id=&quot;8&quot;&#xA;              parent=&quot;1&quot;&#xA;              source=&quot;4&quot;&#xA;              style=&quot;edgeStyle=none;jumpStyle=arc;jumpSize=10;strokeColor=#333333&quot;&#xA;              target=&quot;5&quot;&#xA;              value=&quot;&quot;>&#xA;         &lt;Object as=&quot;bo&quot; name=&quot;&quot; yestId=&quot;JyCgIDZvZFJCxt2dZnjiJHH0JfYxLF7H&quot;/>&#xA;         &lt;mxGeometry as=&quot;geometry&quot; relative=&quot;1&quot;/>&#xA;      &lt;/mxCell>&#xA;   &lt;/root>&#xA;&lt;/mxGraphModel>&#xA;"/>
+    <metadata key="jiraWorkflow_WorkflowVersion" value="2"/>
+    <metadata key="jiraWorkflow_WorkflowContent" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;mxGraphModel arrows=&quot;1&quot;&#xA;              connect=&quot;0&quot;&#xA;              fold=&quot;1&quot;&#xA;              grid=&quot;0&quot;&#xA;              gridSize=&quot;10&quot;&#xA;              guides=&quot;1&quot;&#xA;              page=&quot;0&quot;&#xA;              pageScale=&quot;1&quot;&#xA;              tooltips=&quot;1&quot;&#xA;              yestId=&quot;0VrESOAMHEARtu6FLGA0F2dJuS40gekW&quot;>&#xA;   &lt;root>&#xA;      &lt;mxCell id=&quot;0&quot;/>&#xA;      &lt;mxCell id=&quot;1&quot; parent=&quot;0&quot;/>&#xA;      &lt;mxCell id=&quot;2&quot;&#xA;              parent=&quot;1&quot;&#xA;              style=&quot;shape=startPoint;strokeWidth=2;perimeter=ellipsePerimeter;overflow=visible;gradientColor=white;gradientDirection=south;strokeColor=#A4C1A2;fillColor=#bcddba&quot;&#xA;              value=&quot;&quot;&#xA;              vertex=&quot;1&quot;>&#xA;         &lt;Object as=&quot;bo&quot;&#xA;                 kind=&quot;start&quot;&#xA;                 label=&quot;3&quot;&#xA;                 name=&quot;&quot;&#xA;                 yestId=&quot;95j87z3a3eczhBMHHya1t0VxWo0yqql9&quot;/>&#xA;         &lt;mxGeometry as=&quot;geometry&quot; height=&quot;31&quot; width=&quot;31&quot; x=&quot;150&quot; y=&quot;100&quot;/>&#xA;      &lt;/mxCell>&#xA;      &lt;mxCell id=&quot;3&quot;&#xA;              parent=&quot;1&quot;&#xA;              style=&quot;shape=nameLabel;deletable=0;strokeColor=none;fillColor=none;strokeWidth=0;overflow=visible;rounded=0;autosize=1;spacing=4;align=left&quot;&#xA;              value=&quot;&quot;&#xA;              vertex=&quot;1&quot;&#xA;              visible=&quot;0&quot;>&#xA;         &lt;Object as=&quot;bo&quot; labelled=&quot;2&quot;/>&#xA;         &lt;mxGeometry as=&quot;geometry&quot; height=&quot;20&quot; width=&quot;50&quot; x=&quot;100&quot; y=&quot;100&quot;/>&#xA;      &lt;/mxCell>&#xA;      &lt;mxCell id=&quot;4&quot;&#xA;              parent=&quot;1&quot;&#xA;              style=&quot;shape=task;strokeWidth=2;overflow=hidden;gradientColor=white;gradientDirection=south;strokeColor=#AEC6CF;fillColor=#c8e3ee&quot;&#xA;              value=&quot;Bestellung aufnehmen&quot;&#xA;              vertex=&quot;1&quot;>&#xA;         &lt;Object as=&quot;bo&quot;&#xA;                 decisionTable=&quot;{&amp;#34;columns&amp;#34;:[{&amp;#34;id&amp;#34;:&amp;#34;ncPzcd5E65gZxijeR7qQvvVkhC7vSE5J&amp;#34;,&amp;#34;kind&amp;#34;:&amp;#34;SET&amp;#34;,&amp;#34;dataName&amp;#34;:&amp;#34;Produkt&amp;#34;},{&amp;#34;id&amp;#34;:&amp;#34;a8OSmGFLZ0bgYXIPnxjasNjkuinQBL5a&amp;#34;,&amp;#34;kind&amp;#34;:&amp;#34;STEP&amp;#34;},{&amp;#34;id&amp;#34;:&amp;#34;z9vrFwHX4t6LWI9Efg08SylI9BzZrUmD&amp;#34;,&amp;#34;kind&amp;#34;:&amp;#34;ADDITIONAL_INFORMATION&amp;#34;,&amp;#34;type&amp;#34;:&amp;#34;#objective&amp;#34;}],&amp;#34;decisions&amp;#34;:[{&amp;#34;id&amp;#34;:&amp;#34;MY4MZ9RsW2iNwwTNeZIxBLJDdkkg2z5M&amp;#34;,&amp;#34;cells&amp;#34;:[{&amp;#34;key&amp;#34;:&amp;#34;ncPzcd5E65gZxijeR7qQvvVkhC7vSE5J&amp;#34;,&amp;#34;value&amp;#34;:{&amp;#34;kind&amp;#34;:&amp;#34;stringCell&amp;#34;,&amp;#34;value&amp;#34;:&amp;#34;Döner&amp;#34;}},{&amp;#34;key&amp;#34;:&amp;#34;a8OSmGFLZ0bgYXIPnxjasNjkuinQBL5a&amp;#34;,&amp;#34;value&amp;#34;:{&amp;#34;kind&amp;#34;:&amp;#34;operationCell&amp;#34;,&amp;#34;operations&amp;#34;:[{&amp;#34;id&amp;#34;:&amp;#34;9uz3WKkCRQp2zU77wiH3c45DG71OmrS3&amp;#34;,&amp;#34;highLevel&amp;#34;:{&amp;#34;action&amp;#34;:[{&amp;#34;kind&amp;#34;:&amp;#34;text&amp;#34;,&amp;#34;value&amp;#34;:&amp;#34;Kunde wählt folgendes Produkt: &amp;#34;},{&amp;#34;kind&amp;#34;:&amp;#34;stepField&amp;#34;,&amp;#34;dataKind&amp;#34;:&amp;#34;designDataKind&amp;#34;,&amp;#34;dataName&amp;#34;:&amp;#34;Produkt&amp;#34;}],&amp;#34;expectedResult&amp;#34;:[{&amp;#34;kind&amp;#34;:&amp;#34;text&amp;#34;,&amp;#34;value&amp;#34;:&amp;#34;Zubereitung von &amp;#34;},{&amp;#34;kind&amp;#34;:&amp;#34;stepField&amp;#34;,&amp;#34;dataKind&amp;#34;:&amp;#34;designDataKind&amp;#34;,&amp;#34;dataName&amp;#34;:&amp;#34;Produkt&amp;#34;},{&amp;#34;kind&amp;#34;:&amp;#34;text&amp;#34;,&amp;#34;value&amp;#34;:&amp;#34; wird begonnen&amp;#34;}]}}]}},{&amp;#34;key&amp;#34;:&amp;#34;z9vrFwHX4t6LWI9Efg08SylI9BzZrUmD&amp;#34;,&amp;#34;value&amp;#34;:{&amp;#34;kind&amp;#34;:&amp;#34;stringCell&amp;#34;,&amp;#34;value&amp;#34;:&amp;#34;Döner zubereiten&amp;#34;}}]},{&amp;#34;id&amp;#34;:&amp;#34;gy1sB8ym9bLzaD2m1gLSAXKvq16Zaabq&amp;#34;,&amp;#34;cells&amp;#34;:[{&amp;#34;key&amp;#34;:&amp;#34;ncPzcd5E65gZxijeR7qQvvVkhC7vSE5J&amp;#34;,&amp;#34;value&amp;#34;:{&amp;#34;kind&amp;#34;:&amp;#34;stringCell&amp;#34;,&amp;#34;value&amp;#34;:&amp;#34;Dürum&amp;#34;}},{&amp;#34;key&amp;#34;:&amp;#34;a8OSmGFLZ0bgYXIPnxjasNjkuinQBL5a&amp;#34;,&amp;#34;value&amp;#34;:{&amp;#34;kind&amp;#34;:&amp;#34;operationCell&amp;#34;,&amp;#34;operations&amp;#34;:[{&amp;#34;id&amp;#34;:&amp;#34;9uz3WKkCRQp2zU77wiH3c45DG71OmrS3&amp;#34;,&amp;#34;highLevel&amp;#34;:{&amp;#34;action&amp;#34;:[{&amp;#34;kind&amp;#34;:&amp;#34;text&amp;#34;,&amp;#34;value&amp;#34;:&amp;#34;Kunde wählt folgendes Produkt: &amp;#34;},{&amp;#34;kind&amp;#34;:&amp;#34;stepField&amp;#34;,&amp;#34;dataKind&amp;#34;:&amp;#34;designDataKind&amp;#34;,&amp;#34;dataName&amp;#34;:&amp;#34;Produkt&amp;#34;}],&amp;#34;expectedResult&amp;#34;:[{&amp;#34;kind&amp;#34;:&amp;#34;text&amp;#34;,&amp;#34;value&amp;#34;:&amp;#34;Zubereitung von &amp;#34;},{&amp;#34;kind&amp;#34;:&amp;#34;stepField&amp;#34;,&amp;#34;dataKind&amp;#34;:&amp;#34;designDataKind&amp;#34;,&amp;#34;dataName&amp;#34;:&amp;#34;Produkt&amp;#34;},{&amp;#34;kind&amp;#34;:&amp;#34;text&amp;#34;,&amp;#34;value&amp;#34;:&amp;#34; wird begonnen&amp;#34;}]}}]}},{&amp;#34;key&amp;#34;:&amp;#34;z9vrFwHX4t6LWI9Efg08SylI9BzZrUmD&amp;#34;,&amp;#34;value&amp;#34;:{&amp;#34;kind&amp;#34;:&amp;#34;stringCell&amp;#34;,&amp;#34;value&amp;#34;:&amp;#34;Dürum zubereiten&amp;#34;}}]},{&amp;#34;id&amp;#34;:&amp;#34;VPKdb5WdN4RRPdYXUzyH2upQk2lufGFA&amp;#34;,&amp;#34;cells&amp;#34;:[{&amp;#34;key&amp;#34;:&amp;#34;ncPzcd5E65gZxijeR7qQvvVkhC7vSE5J&amp;#34;,&amp;#34;value&amp;#34;:{&amp;#34;kind&amp;#34;:&amp;#34;stringCell&amp;#34;,&amp;#34;value&amp;#34;:&amp;#34;Lahmacun&amp;#34;}},{&amp;#34;key&amp;#34;:&amp;#34;a8OSmGFLZ0bgYXIPnxjasNjkuinQBL5a&amp;#34;,&amp;#34;value&amp;#34;:{&amp;#34;kind&amp;#34;:&amp;#34;operationCell&amp;#34;,&amp;#34;operations&amp;#34;:[{&amp;#34;id&amp;#34;:&amp;#34;9uz3WKkCRQp2zU77wiH3c45DG71OmrS3&amp;#34;,&amp;#34;highLevel&amp;#34;:{&amp;#34;action&amp;#34;:[{&amp;#34;kind&amp;#34;:&amp;#34;text&amp;#34;,&amp;#34;value&amp;#34;:&amp;#34;Kunde wählt folgendes Produkt: &amp;#34;},{&amp;#34;kind&amp;#34;:&amp;#34;stepField&amp;#34;,&amp;#34;dataKind&amp;#34;:&amp;#34;designDataKind&amp;#34;,&amp;#34;dataName&amp;#34;:&amp;#34;Produkt&amp;#34;}],&amp;#34;expectedResult&amp;#34;:[{&amp;#34;kind&amp;#34;:&amp;#34;text&amp;#34;,&amp;#34;value&amp;#34;:&amp;#34;Zubereitung von &amp;#34;},{&amp;#34;kind&amp;#34;:&amp;#34;stepField&amp;#34;,&amp;#34;dataKind&amp;#34;:&amp;#34;designDataKind&amp;#34;,&amp;#34;dataName&amp;#34;:&amp;#34;Produkt&amp;#34;},{&amp;#34;kind&amp;#34;:&amp;#34;text&amp;#34;,&amp;#34;value&amp;#34;:&amp;#34; wird begonnen&amp;#34;}]}}]}},{&amp;#34;key&amp;#34;:&amp;#34;z9vrFwHX4t6LWI9Efg08SylI9BzZrUmD&amp;#34;,&amp;#34;value&amp;#34;:{&amp;#34;kind&amp;#34;:&amp;#34;stringCell&amp;#34;,&amp;#34;value&amp;#34;:&amp;#34;Lahmacun zubereiten&amp;#34;}}]}]}&quot;&#xA;                 kind=&quot;task&quot;&#xA;                 name=&quot;Bestellung aufnehmen&quot;&#xA;                 yestId=&quot;cjB7SsCuXHbGNxYy8TcLriYsf0ms17T1&quot;/>&#xA;         &lt;mxGeometry as=&quot;geometry&quot; height=&quot;51&quot; width=&quot;101&quot; x=&quot;115&quot; y=&quot;175&quot;/>&#xA;      &lt;/mxCell>&#xA;      &lt;mxCell id=&quot;5&quot;&#xA;              parent=&quot;1&quot;&#xA;              style=&quot;shape=endPoint;strokeWidth=4;perimeter=ellipsePerimeter;overflow=visible;gradientDirection=south;strokeColor=#EF7E8A;fillColor=#ff909e&quot;&#xA;              value=&quot;&quot;&#xA;              vertex=&quot;1&quot;>&#xA;         &lt;Object as=&quot;bo&quot;&#xA;                 kind=&quot;end&quot;&#xA;                 label=&quot;6&quot;&#xA;                 name=&quot;&quot;&#xA;                 yestId=&quot;ypVqNqrM7FhqTZUTuCAjJZhMSxOIwsny&quot;/>&#xA;         &lt;mxGeometry as=&quot;geometry&quot; height=&quot;31&quot; width=&quot;31&quot; x=&quot;150&quot; y=&quot;262&quot;/>&#xA;      &lt;/mxCell>&#xA;      &lt;mxCell id=&quot;6&quot;&#xA;              parent=&quot;1&quot;&#xA;              style=&quot;shape=nameLabel;deletable=0;strokeColor=none;fillColor=none;strokeWidth=0;overflow=visible;rounded=0;autosize=1;spacing=4;align=left&quot;&#xA;              value=&quot;&quot;&#xA;              vertex=&quot;1&quot;&#xA;              visible=&quot;0&quot;>&#xA;         &lt;Object as=&quot;bo&quot; labelled=&quot;5&quot;/>&#xA;         &lt;mxGeometry as=&quot;geometry&quot; height=&quot;20&quot; width=&quot;50&quot; x=&quot;191&quot; y=&quot;272&quot;/>&#xA;      &lt;/mxCell>&#xA;      &lt;mxCell edge=&quot;1&quot;&#xA;              id=&quot;7&quot;&#xA;              parent=&quot;1&quot;&#xA;              source=&quot;2&quot;&#xA;              style=&quot;edgeStyle=none;jumpStyle=arc;jumpSize=10;strokeColor=#333333&quot;&#xA;              target=&quot;4&quot;&#xA;              value=&quot;&quot;>&#xA;         &lt;Object as=&quot;bo&quot; name=&quot;&quot; yestId=&quot;A9sPq5OMzaFysoqeAQPFRss2yJmNMJBQ&quot;/>&#xA;         &lt;mxGeometry as=&quot;geometry&quot; relative=&quot;1&quot;/>&#xA;      &lt;/mxCell>&#xA;      &lt;mxCell edge=&quot;1&quot;&#xA;              id=&quot;8&quot;&#xA;              parent=&quot;1&quot;&#xA;              source=&quot;4&quot;&#xA;              style=&quot;edgeStyle=none;jumpStyle=arc;jumpSize=10;strokeColor=#333333&quot;&#xA;              target=&quot;5&quot;&#xA;              value=&quot;&quot;>&#xA;         &lt;Object as=&quot;bo&quot; name=&quot;&quot; yestId=&quot;JyCgIDZvZFJCxt2dZnjiJHH0JfYxLF7H&quot;/>&#xA;         &lt;mxGeometry as=&quot;geometry&quot; relative=&quot;1&quot;/>&#xA;      &lt;/mxCell>&#xA;   &lt;/root>&#xA;&lt;/mxGraphModel>&#xA;"/>
     <flowElements xsi:type="yest:StartPoint" id="95j87z3a3eczhBMHHya1t0VxWo0yqql9" name="" outgoings="A9sPq5OMzaFysoqeAQPFRss2yJmNMJBQ"/>
     <flowElements xsi:type="yest:Task" id="cjB7SsCuXHbGNxYy8TcLriYsf0ms17T1" name="Bestellung aufnehmen" incomings="A9sPq5OMzaFysoqeAQPFRss2yJmNMJBQ" outgoings="JyCgIDZvZFJCxt2dZnjiJHH0JfYxLF7H">
       <table>
+        <columns xsi:type="yest:DataColumn" id="ncPzcd5E65gZxijeR7qQvvVkhC7vSE5J" type="SET" data="r8Iuc5OT0JZz20yVr4xr4pykgrC6BCEY"/>
         <columns xsi:type="yest:OperationColumn" id="a8OSmGFLZ0bgYXIPnxjasNjkuinQBL5a"/>
+        <columns xsi:type="yest:CriterionColumn" id="z9vrFwHX4t6LWI9Efg08SylI9BzZrUmD" criterionType="#objective"/>
+        <columns xsi:type="yest:CriterionColumn" id="NhEveBewxxluVOhJja8Qz1PAcgweUOH2" criterionType="Story"/>
         <decisions id="MY4MZ9RsW2iNwwTNeZIxBLJDdkkg2z5M">
           <cells key="a8OSmGFLZ0bgYXIPnxjasNjkuinQBL5a">
             <value xsi:type="yest:OperationCell">
               <operations reference="9uz3WKkCRQp2zU77wiH3c45DG71OmrS3"/>
             </value>
+          </cells>
+          <cells key="ncPzcd5E65gZxijeR7qQvvVkhC7vSE5J">
+            <value xsi:type="yest:DataValueCell" value="irTFZeG6feBopDA4SgXvN7YzOkFdJO8r"/>
+          </cells>
+          <cells key="z9vrFwHX4t6LWI9Efg08SylI9BzZrUmD">
+            <value xsi:type="yest:StringCell" value="Döner zubereiten"/>
+          </cells>
+          <cells key="NhEveBewxxluVOhJja8Qz1PAcgweUOH2">
+            <value xsi:type="yest:CustomizableCell" type="jira-issue" rendering="MBT-7: Döner bestellen" data="{&quot;self&quot;:&quot;https://mbtdemo.atlassian.net/rest/api/3/issue/10006&quot;,&quot;key&quot;:&quot;MBT-7&quot;}"/>
           </cells>
         </decisions>
         <decisions id="gy1sB8ym9bLzaD2m1gLSAXKvq16Zaabq">
@@ -422,6 +449,31 @@
             <value xsi:type="yest:OperationCell">
               <operations reference="9uz3WKkCRQp2zU77wiH3c45DG71OmrS3"/>
             </value>
+          </cells>
+          <cells key="ncPzcd5E65gZxijeR7qQvvVkhC7vSE5J">
+            <value xsi:type="yest:DataValueCell" value="CmP37U3sTusRKl311elX8Uf6MArccelZ"/>
+          </cells>
+          <cells key="z9vrFwHX4t6LWI9Efg08SylI9BzZrUmD">
+            <value xsi:type="yest:StringCell" value="Dürum zubereiten"/>
+          </cells>
+          <cells key="NhEveBewxxluVOhJja8Qz1PAcgweUOH2">
+            <value xsi:type="yest:CustomizableCell" type="jira-issue" rendering="MBT-7: Döner bestellen" data="{&quot;self&quot;:&quot;https://mbtdemo.atlassian.net/rest/api/3/issue/10006&quot;,&quot;key&quot;:&quot;MBT-7&quot;}"/>
+          </cells>
+        </decisions>
+        <decisions id="VPKdb5WdN4RRPdYXUzyH2upQk2lufGFA">
+          <cells key="ncPzcd5E65gZxijeR7qQvvVkhC7vSE5J">
+            <value xsi:type="yest:DataValueCell" value="yGWFkK9V2dyy59E3IkChrfN5q634HJ2O"/>
+          </cells>
+          <cells key="a8OSmGFLZ0bgYXIPnxjasNjkuinQBL5a">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="9uz3WKkCRQp2zU77wiH3c45DG71OmrS3"/>
+            </value>
+          </cells>
+          <cells key="z9vrFwHX4t6LWI9Efg08SylI9BzZrUmD">
+            <value xsi:type="yest:StringCell" value="Lahmacun zubereiten"/>
+          </cells>
+          <cells key="NhEveBewxxluVOhJja8Qz1PAcgweUOH2">
+            <value xsi:type="yest:CustomizableCell" type="jira-issue" rendering="MBT-7: Döner bestellen" data="{&quot;self&quot;:&quot;https://mbtdemo.atlassian.net/rest/api/3/issue/10006&quot;,&quot;key&quot;:&quot;MBT-7&quot;}"/>
           </cells>
         </decisions>
       </table>
@@ -768,7 +820,7 @@
     <metadata key="jiraWorkflow_IssueTypeId" value="10007"/>
     <metadata key="jiraWorkflow_Summary" value="Extras hinzufügen"/>
     <metadata key="jiraWorkflow_ProjectName" value="MBT"/>
-    <metadata key="jiraWorkflow_Status" value="UP_TO_DATE"/>
+    <metadata key="jiraWorkflow_Status" value="MODIFIED"/>
     <metadata key="jiraWorkflow_Fields" value="{}"/>
     <metadata key="jiraWorkflow_Key" value="MBT-4"/>
     <metadata key="jiraWorkflow_UserUrl" value="https://mbtdemo.atlassian.net/browse/MBT-4"/>
@@ -795,7 +847,7 @@
         </children>
       </children>
       <children xsi:type="yest:EndPointShape" visible="true" active="true" flowNode="pnwEkuxlkUsrf1ghARy0thjlqQWuBVa1">
-        <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.3/@diagram/@colors.5" lineWidth="4" transparency="0.0" width="31" height="31" x="150" y="227" style="//@testElements.3/@diagram/@styles.2"/>
+        <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.3/@diagram/@colors.5" lineWidth="4" transparency="0.0" width="31" height="31" x="150" y="246" style="//@testElements.3/@diagram/@styles.2"/>
         <link businessObjects="pnwEkuxlkUsrf1ghARy0thjlqQWuBVa1"/>
         <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@testElements.3/@diagram/@connections.1"/>
       </children>
@@ -1126,11 +1178,51 @@
       </expectedResult>
     </highLevelStep>
   </testElements>
-  <testElements xsi:type="yest:TestScenario" id="tGbhuFABrewVuonSr0OJ6gzOehgi1LmO" name="Generated test scenario" associatedWorkflow="31bfdbc02bbb11eeb6a2ffaf2bdf1cb2">
+  <testElements xsi:type="yest:TestScenario" id="tGbhuFABrewVuonSr0OJ6gzOehgi1LmO" name="Dürum zubereiten" associatedWorkflow="31bfdbc02bbb11eeb6a2ffaf2bdf1cb2">
     <testActions id="RJN8JHT83RyMhqJtUpdiFsnyEDSamtCR" operation="9uz3WKkCRQp2zU77wiH3c45DG71OmrS3">
       <stepFieldValues referencedStepField="rxtrXQwNSF6gIEXDmfnqIuyWyjpig69M" value="CmP37U3sTusRKl311elX8Uf6MArccelZ"/>
       <stepFieldValues referencedStepField="6dmEm7712Z5PChPRs3I1GLU3cwYHg9oA" value="CmP37U3sTusRKl311elX8Uf6MArccelZ"/>
     </testActions>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="mFdWepYaVrMmOfRT38xp1cyRoJcMlgZ5" name="Döner zubereiten" associatedWorkflow="31bfdbc02bbb11eeb6a2ffaf2bdf1cb2">
+    <testActions id="uGL53PKWMBFUkkeSiveZ76nWjBJkg0Nf" operation="9uz3WKkCRQp2zU77wiH3c45DG71OmrS3">
+      <stepFieldValues referencedStepField="rxtrXQwNSF6gIEXDmfnqIuyWyjpig69M" value="irTFZeG6feBopDA4SgXvN7YzOkFdJO8r"/>
+      <stepFieldValues referencedStepField="6dmEm7712Z5PChPRs3I1GLU3cwYHg9oA" value="irTFZeG6feBopDA4SgXvN7YzOkFdJO8r"/>
+    </testActions>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="uMIbX5LZ5Eyeo0obJBsr5ZWhdlZpZhks" name="Lahmacun zubereiten" associatedWorkflow="31bfdbc02bbb11eeb6a2ffaf2bdf1cb2">
+    <testActions id="saWpco7jzUJDoA9RN1YwctdDeNvPmpme" operation="9uz3WKkCRQp2zU77wiH3c45DG71OmrS3">
+      <stepFieldValues referencedStepField="rxtrXQwNSF6gIEXDmfnqIuyWyjpig69M" value="yGWFkK9V2dyy59E3IkChrfN5q634HJ2O"/>
+      <stepFieldValues referencedStepField="6dmEm7712Z5PChPRs3I1GLU3cwYHg9oA" value="yGWFkK9V2dyy59E3IkChrfN5q634HJ2O"/>
+    </testActions>
+  </testElements>
+  <testElements xsi:type="yest:AutomationConfiguration" id="Pna3UVjMiclPuEXACa9HiLnXTc3JzxLZ" name="PublicationCucumber" publisherId="com.smartesting.publishers.cucumber.CucumberEditor">
+    <campaign folders="Lz8wsQlHNDObFDerNqoW9JKba4Z79ibq"/>
+    <parameters name="USE_IMPLEMENTATION_PARAMS" value="true"/>
+    <parameters name="ImplementationType" value="TYPESCRIPT"/>
+    <parameters name="NotImplementedKeywords" value="#Wird mit der Zubereitung von (.*) begonnen%%Produkt|then##Der Kunde das Produkt (.*) bestellt%%Produkt|when#"/>
+    <operationScripts testOperation="9uz3WKkCRQp2zU77wiH3c45DG71OmrS3">
+      <after/>
+      <body>
+        <calls keywordId="Der Kunde das Produkt &lt;Produkt> bestellt" keywordName="Given/When Der Kunde das Produkt &lt;Produkt> bestellt" id="nNT63OA7U3s1WV3Xb1198NoaTKHG3wY2">
+          <arguments parameterName="Produkt">
+            <parameterValue>
+              <stepElements xsi:type="yest:StepField" id="kHqHk0GUsip7q8yl6uJ72RLGzuwkS9HY" data="r8Iuc5OT0JZz20yVr4xr4pykgrC6BCEY"/>
+            </parameterValue>
+          </arguments>
+        </calls>
+        <calls keywordId="Wird mit der Zubereitung von &lt;Produkt> begonnen" keywordName="Then Wird mit der Zubereitung von &lt;Produkt> begonnen" id="ZDZY5sdC6iNhfo1wp4WHK1jO5nHyDWzu">
+          <arguments parameterName="Produkt">
+            <parameterValue>
+              <stepElements xsi:type="yest:StepField" id="CV9TONSwmkGL0XsASw4FGbWJ2XDL3qD2" data="r8Iuc5OT0JZz20yVr4xr4pykgrC6BCEY"/>
+            </parameterValue>
+          </arguments>
+        </calls>
+      </body>
+      <before/>
+    </operationScripts>
+    <globalBefore/>
+    <globalAfter/>
   </testElements>
   <designDataDictionary id="m6bdE2uKgcb7qfKlSHehncBLe61cT70v" name="#designDataDictionary">
     <datas xsi:type="yest:DesignData" name="Produkt" id="r8Iuc5OT0JZz20yVr4xr4pykgrC6BCEY">
