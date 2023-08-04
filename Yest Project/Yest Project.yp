@@ -400,14 +400,32 @@
     <metadata key="jiraWorkflow_IssueTypeId" value="10007"/>
     <metadata key="jiraWorkflow_Summary" value="Produkt auswählen"/>
     <metadata key="jiraWorkflow_ProjectName" value="MBT"/>
-    <metadata key="jiraWorkflow_Status" value="UP_TO_DATE"/>
+    <metadata key="jiraWorkflow_Status" value="MODIFIED"/>
     <metadata key="jiraWorkflow_Fields" value="{}"/>
     <metadata key="jiraWorkflow_Key" value="MBT-5"/>
     <metadata key="jiraWorkflow_UserUrl" value="https://mbtdemo.atlassian.net/browse/MBT-5"/>
     <metadata key="jiraWorkflow_WorkflowVersion" value="1"/>
     <metadata key="jiraWorkflow_WorkflowContent" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;mxGraphModel arrows=&quot;1&quot;&#xA;              connect=&quot;0&quot;&#xA;              fold=&quot;1&quot;&#xA;              grid=&quot;0&quot;&#xA;              gridSize=&quot;10&quot;&#xA;              guides=&quot;1&quot;&#xA;              page=&quot;0&quot;&#xA;              pageScale=&quot;1&quot;&#xA;              tooltips=&quot;1&quot;&#xA;              yestId=&quot;0VrESOAMHEARtu6FLGA0F2dJuS40gekW&quot;>&#xA;   &lt;root>&#xA;      &lt;mxCell id=&quot;0&quot;/>&#xA;      &lt;mxCell id=&quot;1&quot; parent=&quot;0&quot;/>&#xA;      &lt;mxCell id=&quot;2&quot;&#xA;              parent=&quot;1&quot;&#xA;              style=&quot;shape=startPoint;strokeWidth=2;perimeter=ellipsePerimeter;overflow=visible;gradientColor=white;gradientDirection=south;strokeColor=#A4C1A2;fillColor=#bcddba&quot;&#xA;              value=&quot;&quot;&#xA;              vertex=&quot;1&quot;>&#xA;         &lt;Object as=&quot;bo&quot;&#xA;                 kind=&quot;start&quot;&#xA;                 label=&quot;3&quot;&#xA;                 name=&quot;&quot;&#xA;                 yestId=&quot;95j87z3a3eczhBMHHya1t0VxWo0yqql9&quot;/>&#xA;         &lt;mxGeometry as=&quot;geometry&quot; height=&quot;31&quot; width=&quot;31&quot; x=&quot;150&quot; y=&quot;100&quot;/>&#xA;      &lt;/mxCell>&#xA;      &lt;mxCell id=&quot;3&quot;&#xA;              parent=&quot;1&quot;&#xA;              style=&quot;shape=nameLabel;deletable=0;strokeColor=none;fillColor=none;strokeWidth=0;overflow=visible;rounded=0;autosize=1;spacing=4;align=left&quot;&#xA;              value=&quot;&quot;&#xA;              vertex=&quot;1&quot;&#xA;              visible=&quot;0&quot;>&#xA;         &lt;Object as=&quot;bo&quot; labelled=&quot;2&quot;/>&#xA;         &lt;mxGeometry as=&quot;geometry&quot; height=&quot;20&quot; width=&quot;50&quot; x=&quot;100&quot; y=&quot;100&quot;/>&#xA;      &lt;/mxCell>&#xA;      &lt;mxCell id=&quot;4&quot;&#xA;              parent=&quot;1&quot;&#xA;              style=&quot;shape=task;strokeWidth=2;overflow=hidden;gradientColor=white;gradientDirection=south;strokeColor=#AEC6CF;fillColor=#c8e3ee&quot;&#xA;              value=&quot;Task&quot;&#xA;              vertex=&quot;1&quot;>&#xA;         &lt;Object as=&quot;bo&quot;&#xA;                 kind=&quot;task&quot;&#xA;                 name=&quot;Task&quot;&#xA;                 yestId=&quot;cjB7SsCuXHbGNxYy8TcLriYsf0ms17T1&quot;/>&#xA;         &lt;mxGeometry as=&quot;geometry&quot; height=&quot;51&quot; width=&quot;101&quot; x=&quot;115&quot; y=&quot;175&quot;/>&#xA;      &lt;/mxCell>&#xA;      &lt;mxCell id=&quot;5&quot;&#xA;              parent=&quot;1&quot;&#xA;              style=&quot;shape=endPoint;strokeWidth=4;perimeter=ellipsePerimeter;overflow=visible;gradientDirection=south;strokeColor=#EF7E8A;fillColor=#ff909e&quot;&#xA;              value=&quot;&quot;&#xA;              vertex=&quot;1&quot;>&#xA;         &lt;Object as=&quot;bo&quot;&#xA;                 kind=&quot;end&quot;&#xA;                 label=&quot;6&quot;&#xA;                 name=&quot;&quot;&#xA;                 yestId=&quot;ypVqNqrM7FhqTZUTuCAjJZhMSxOIwsny&quot;/>&#xA;         &lt;mxGeometry as=&quot;geometry&quot; height=&quot;31&quot; width=&quot;31&quot; x=&quot;150&quot; y=&quot;262&quot;/>&#xA;      &lt;/mxCell>&#xA;      &lt;mxCell id=&quot;6&quot;&#xA;              parent=&quot;1&quot;&#xA;              style=&quot;shape=nameLabel;deletable=0;strokeColor=none;fillColor=none;strokeWidth=0;overflow=visible;rounded=0;autosize=1;spacing=4;align=left&quot;&#xA;              value=&quot;&quot;&#xA;              vertex=&quot;1&quot;&#xA;              visible=&quot;0&quot;>&#xA;         &lt;Object as=&quot;bo&quot; labelled=&quot;5&quot;/>&#xA;         &lt;mxGeometry as=&quot;geometry&quot; height=&quot;20&quot; width=&quot;50&quot; x=&quot;191&quot; y=&quot;272&quot;/>&#xA;      &lt;/mxCell>&#xA;      &lt;mxCell edge=&quot;1&quot;&#xA;              id=&quot;7&quot;&#xA;              parent=&quot;1&quot;&#xA;              source=&quot;2&quot;&#xA;              style=&quot;edgeStyle=none;jumpStyle=arc;jumpSize=10;strokeColor=#333333&quot;&#xA;              target=&quot;4&quot;&#xA;              value=&quot;&quot;>&#xA;         &lt;Object as=&quot;bo&quot; name=&quot;&quot; yestId=&quot;A9sPq5OMzaFysoqeAQPFRss2yJmNMJBQ&quot;/>&#xA;         &lt;mxGeometry as=&quot;geometry&quot; relative=&quot;1&quot;/>&#xA;      &lt;/mxCell>&#xA;      &lt;mxCell edge=&quot;1&quot;&#xA;              id=&quot;8&quot;&#xA;              parent=&quot;1&quot;&#xA;              source=&quot;4&quot;&#xA;              style=&quot;edgeStyle=none;jumpStyle=arc;jumpSize=10;strokeColor=#333333&quot;&#xA;              target=&quot;5&quot;&#xA;              value=&quot;&quot;>&#xA;         &lt;Object as=&quot;bo&quot; name=&quot;&quot; yestId=&quot;JyCgIDZvZFJCxt2dZnjiJHH0JfYxLF7H&quot;/>&#xA;         &lt;mxGeometry as=&quot;geometry&quot; relative=&quot;1&quot;/>&#xA;      &lt;/mxCell>&#xA;   &lt;/root>&#xA;&lt;/mxGraphModel>&#xA;"/>
     <flowElements xsi:type="yest:StartPoint" id="95j87z3a3eczhBMHHya1t0VxWo0yqql9" name="" outgoings="A9sPq5OMzaFysoqeAQPFRss2yJmNMJBQ"/>
-    <flowElements xsi:type="yest:Task" id="cjB7SsCuXHbGNxYy8TcLriYsf0ms17T1" name="Task" incomings="A9sPq5OMzaFysoqeAQPFRss2yJmNMJBQ" outgoings="JyCgIDZvZFJCxt2dZnjiJHH0JfYxLF7H"/>
+    <flowElements xsi:type="yest:Task" id="cjB7SsCuXHbGNxYy8TcLriYsf0ms17T1" name="Bestellung aufnehmen" incomings="A9sPq5OMzaFysoqeAQPFRss2yJmNMJBQ" outgoings="JyCgIDZvZFJCxt2dZnjiJHH0JfYxLF7H">
+      <table>
+        <columns xsi:type="yest:OperationColumn" id="a8OSmGFLZ0bgYXIPnxjasNjkuinQBL5a"/>
+        <decisions id="MY4MZ9RsW2iNwwTNeZIxBLJDdkkg2z5M">
+          <cells key="a8OSmGFLZ0bgYXIPnxjasNjkuinQBL5a">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="9uz3WKkCRQp2zU77wiH3c45DG71OmrS3"/>
+            </value>
+          </cells>
+        </decisions>
+        <decisions id="gy1sB8ym9bLzaD2m1gLSAXKvq16Zaabq">
+          <cells key="a8OSmGFLZ0bgYXIPnxjasNjkuinQBL5a">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="9uz3WKkCRQp2zU77wiH3c45DG71OmrS3"/>
+            </value>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
     <flowElements xsi:type="yest:SequenceFlow" id="A9sPq5OMzaFysoqeAQPFRss2yJmNMJBQ" name="" target="cjB7SsCuXHbGNxYy8TcLriYsf0ms17T1" source="95j87z3a3eczhBMHHya1t0VxWo0yqql9"/>
     <flowElements xsi:type="yest:EndPoint" id="ypVqNqrM7FhqTZUTuCAjJZhMSxOIwsny" name="" incomings="JyCgIDZvZFJCxt2dZnjiJHH0JfYxLF7H"/>
     <flowElements xsi:type="yest:SequenceFlow" id="JyCgIDZvZFJCxt2dZnjiJHH0JfYxLF7H" name="" target="ypVqNqrM7FhqTZUTuCAjJZhMSxOIwsny" source="cjB7SsCuXHbGNxYy8TcLriYsf0ms17T1"/>
@@ -423,7 +441,7 @@
         <link businessObjects="cjB7SsCuXHbGNxYy8TcLriYsf0ms17T1"/>
         <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.1/@diagram/@connections.1" incomingConnections="//@testElements.1/@diagram/@connections.0"/>
         <children xsi:type="pi:ContainerShape" visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.1/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="87" height="37" x="7" y="7" font="//@testElements.1/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Task"/>
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.1/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="87" height="37" x="7" y="7" font="//@testElements.1/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Bestellung&#xD;&#xA;aufnehmen"/>
         </children>
       </children>
       <children xsi:type="yest:EndPointShape" visible="true" active="true" flowNode="ypVqNqrM7FhqTZUTuCAjJZhMSxOIwsny">
@@ -1095,7 +1113,48 @@
       <fonts name="Segoe UI" size="9"/>
     </diagram>
   </testElements>
-  <designDataDictionary id="m6bdE2uKgcb7qfKlSHehncBLe61cT70v" name="#designDataDictionary"/>
-  <implementationDataDictionary id="5zqhb3Fdw1gKprpF2xIR0gRGMbWhnZBT" name="#implementationDataDictionary"/>
-  <dataSetCatalog name="#catalog" id="0GATipeDCGtrrxwqlQrIDImnlOezyYmD"/>
+  <testElements xsi:type="yest:TestOperation" id="9uz3WKkCRQp2zU77wiH3c45DG71OmrS3">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Kunde wählt folgendes Produkt: "/>
+        <stepElements xsi:type="yest:StepField" id="rxtrXQwNSF6gIEXDmfnqIuyWyjpig69M" data="r8Iuc5OT0JZz20yVr4xr4pykgrC6BCEY"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="Zubereitung von "/>
+        <stepElements xsi:type="yest:StepField" id="6dmEm7712Z5PChPRs3I1GLU3cwYHg9oA" data="r8Iuc5OT0JZz20yVr4xr4pykgrC6BCEY"/>
+        <stepElements xsi:type="yest:StepText" content=" wird begonnen"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="tGbhuFABrewVuonSr0OJ6gzOehgi1LmO" name="Generated test scenario" associatedWorkflow="31bfdbc02bbb11eeb6a2ffaf2bdf1cb2">
+    <testActions id="RJN8JHT83RyMhqJtUpdiFsnyEDSamtCR" operation="9uz3WKkCRQp2zU77wiH3c45DG71OmrS3">
+      <stepFieldValues referencedStepField="rxtrXQwNSF6gIEXDmfnqIuyWyjpig69M" value="CmP37U3sTusRKl311elX8Uf6MArccelZ"/>
+      <stepFieldValues referencedStepField="6dmEm7712Z5PChPRs3I1GLU3cwYHg9oA" value="CmP37U3sTusRKl311elX8Uf6MArccelZ"/>
+    </testActions>
+  </testElements>
+  <designDataDictionary id="m6bdE2uKgcb7qfKlSHehncBLe61cT70v" name="#designDataDictionary">
+    <datas xsi:type="yest:DesignData" name="Produkt" id="r8Iuc5OT0JZz20yVr4xr4pykgrC6BCEY">
+      <values id="CmP37U3sTusRKl311elX8Uf6MArccelZ" defined="true">
+        <definition>
+          <operand xsi:type="yest:TextLiteral" value="Dürum"/>
+        </definition>
+      </values>
+      <values id="yGWFkK9V2dyy59E3IkChrfN5q634HJ2O" defined="true">
+        <definition>
+          <operand xsi:type="yest:TextLiteral" value="Lahmacun"/>
+        </definition>
+      </values>
+      <values id="irTFZeG6feBopDA4SgXvN7YzOkFdJO8r" defined="true">
+        <definition>
+          <operand xsi:type="yest:TextLiteral" value="Döner"/>
+        </definition>
+      </values>
+    </datas>
+  </designDataDictionary>
+  <implementationDataDictionary id="5zqhb3Fdw1gKprpF2xIR0gRGMbWhnZBT" name="#implementationDataDictionary">
+    <datas xsi:type="yest:ImplementationData" name="Data" id="1NjBFi16RtOyzb6JihsF8nP0HQqsEBYc"/>
+  </implementationDataDictionary>
+  <dataSetCatalog name="#catalog" id="0GATipeDCGtrrxwqlQrIDImnlOezyYmD">
+    <dataSetCollections name="Data set collection" id="RO0gKzbKpUslJhmXZb8T9ERZkQqOosSD"/>
+  </dataSetCatalog>
 </yest:Project>
